@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - prints possible combinations of two digits,
- * with spaces and commas, two digits should be different 
- * Return: Always 0 (Success)
+ * main - prints combinations of two digits
+ * digits should not be the same
+ * Return: Always 0 (a success)
  */
 int main(void)
 {
@@ -16,7 +16,6 @@ int main(void)
 		{
 			putchar(a + '0');
 			putchar(b + '0');
-
 			if (a < 8)
 			{
 				putchar(',');
