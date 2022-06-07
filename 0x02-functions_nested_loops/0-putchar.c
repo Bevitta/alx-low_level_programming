@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	char c[9] = "_putchar";
+	char b[9] = "_putchar";
 	int a = 0;
 
 		for (a = 0; a < 9; a++)
 		{
-			_putchar(c[a]);
+			_putchar(b[a]);
 		}
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
