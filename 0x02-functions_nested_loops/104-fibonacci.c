@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 	int a = 0, b = 1;
-	int nextTerm = t1 + t2;
+	int nextTerm = a + b;
 
 	printf("%d, %d, ", a, b);
 	for (i = 3; i <= 98; ++i)
