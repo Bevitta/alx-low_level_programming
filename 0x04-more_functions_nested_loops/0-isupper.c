@@ -3,6 +3,7 @@
 /**
  * _isupper - checks for uppercase character
  *
+ * @c: is a random alphabet
  * Return: 1 if uppercase, 0 otherwise
  */
 int _isupper(int c)
