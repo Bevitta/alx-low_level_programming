@@ -6,9 +6,12 @@
  */
 void print_line(int n)
 {
-	char c;
+	int i = 0;
 
-	for (c = 0; c < n; c++)
-		_putchar(45);
-	_putchar(10);
+	if (n > 0)
+	{
+		for (; i < n; i++)
+			_putchar('_');
+	}
+	_putchar('\n');
 }
